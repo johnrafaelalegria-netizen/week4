@@ -1,0 +1,17 @@
+Station number:D22105,Pi model: rasberry 5, boot-drive label: mmcblk0p2 names: Huu Dat Huynh; John-Rafael Alegria
+
+
+Exit Ticket
+
+1. The first thing the code does is import the GPIO library and time library.
+It then states the GPIO pin of the LED GPIO17
+
+It then starts a for loop. In repeats this loop 10 times before existing. In the loop the led turns ON and and then turns off for 0.5 seconds and then LED ON again, and then turns off for 0.5 seconds. It then prints the current loop count it is currently in. For example: blink 0, blink 1, blink 2.... all the way to blink 9, since there it only loops 10 times.
+
+2. The reason why pip doesn't work outside .venv is to protect the OS. This avoids pip from overwriting apt libraries and destroying other projects that are running in the back. By being inside .venv this gives pip the environement it needs without destroying or disturbing the OS and apt library.This acts like an app store for your specific python project.
+
+3. yes
+
+4. LED(17) is GPIO17 which corresponds to pin 11, to check this we can check on pinout.xyz to see what physical pins belong to what GPIOs.
+
+5. toggle.py uses event since it depends on a button being pressed. the pause is necessary to make sure that the program stil stays on and waits for another event. Without it, theprogram would completely close.
