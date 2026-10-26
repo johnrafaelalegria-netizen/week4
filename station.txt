@@ -1,6 +1,9 @@
 Station number:D22105,Pi model: rasberry 5, boot-drive label: mmcblk0p2 names: Huu Dat Huynh; John-Rafael Alegria
 
 
+Github Repo:
+https://github.com/johnrafaelalegria-netizen/week4/
+
 Exit Ticket
 
 1. The first thing the code does is import the GPIO library and time library.
